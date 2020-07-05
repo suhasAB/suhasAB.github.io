@@ -64,6 +64,12 @@ hr{
 
 @media (max-width:767px){
     #mainNav{
-        position: fixed;
+            padding-top: 10% ; 
+            margin-top: 0.1%; 
+            background-color: black;
+        
+    }
+    body{
+        background-color: black;
     }
 }
