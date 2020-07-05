@@ -102,10 +102,13 @@
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <script>
  
-    window.scrollBy(0, -1000);
+   window.onload=setTimeout( scrollWin(0, 1000),5000);
+   console.log("inside js");
     
-    
-  
+   function scrollWin(x, y) {
+       window.scrollBy(x, y);
+       console.log("scrolled up"); 
+}
   
   </script>
 </body>
