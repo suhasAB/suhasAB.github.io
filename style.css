@@ -1,8 +1,52 @@
-.ContactMe{
-    background:url("https://i.postimg.cc/fyfHRLFP/IMG-20181028-182213.jpg");
-    opacity: 0.7;
-     background-size:cover; 
-    height:600px;
-   padding-top:5%;
-    padding-bottom:5%;
+body{
+    background: black;
+}
+
+#mainNav{
+    background: black;
+    border-bottom: 5px solid #00adf7;
+}
+
+#mainNav .nav-link{
+    color: white;
+    border-left: 1px solid #00adf7;
+}
+
+#mainNav .nav-link:hover{
+    color: #00adf7;  
+    background-color: black;
+    
+}
+
+#mainNav .dropdown-item{
+    background-color: black;
+    color: white;
+    border-left: 1px solid #00adf7;
+}
+
+#mainNav .dropdown-item:hover{
+    color: #00adf7;  
+    background-color: black;
+    
+}
+
+.btnList a{
+    color: white;
+}
+
+.btnList a:hover{
+    color: #00adf7;
+}
+
+.jumbotron{
+    background: black;
+    color: #00adf7; 
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+hr{
+    border-top: 0.5px solid #00adf7;  
 }
