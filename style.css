@@ -22,11 +22,16 @@ body{
     background-color: black;
     color: white;
     border-left: 1px solid #00adf7;
+    padding-left: 10%;
+    
 }
 
 #mainNav .dropdown-item:hover{
     color: #00adf7;  
     background-color: black;
+    padding-left: 10%;
+    
+      
     
 }
 
@@ -49,4 +54,10 @@ body{
 
 hr{
     border-top: 0.5px solid #00adf7;  
+}
+
+#navbarSupportedContent .nav-link{
+    padding-left: 10%;
+    margin-left: 10%;
+    
 }
